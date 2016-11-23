@@ -1,22 +1,115 @@
-#banner{
+#banner {
     width: 100%;
-    background:url("../image/13.png")no-repeat center center;
+    background: url("../image/13.png") no-repeat center center;
     height: 200px;
     max-width: 100%;
+    max-height:222px;
     background-size: 100% auto;
-    min-height: 222px;
+    min-height:222px;
     border: none;
-}
-#tab{
-    width: 100%;
-    background-color: brown;
-}
-#tab_about{
-    width: 10%;
-    
 }
 
-.tab_button{
+#tab {
+    width: 100%;
+    height:22px;
+}
+
+#tab_about {
+    width: 15%;
+}
+
+.tab_button {
     background-image: url("../image/11.png");
     border: none;
+    height: 100%;
+    background-size: 100% auto;
+    float: left;
+    color: #ffffff;
+}
+
+.image_div {
+    border: none;
+
+}
+.img_line{
+    float: left;
+    background-size: 100% auto;
+    height: 100%;
+}
+#tab_electronic_catalog{
+    width: 30%;
+}
+#tav_you_menu{
+    width: 15%;
+}
+#tab_country{
+    width: 15%;
+}
+#tab_digital{
+    width:15%;
+}
+#slide_left{
+    background-color: #72b03b;
+    width:126px;
+    float: left;
+    height: 338px;
+}
+.left_button{
+    width: 100%;
+    height: 22px;
+    background-color: #7cbd43;
+    color: #ffffff;;
+    border: none;
+    margin-top: 2px;
+
+}
+#left_button1{
+    margin-top: 33px;
+}
+.circle {
+    background-image: url("/image/circle.png");
+    position: absolute;
+    left: 177px;
+    top: 238px;
+    width: 165px;
+    height: 172px;
+    z-index: 16;
+}
+#content_bar{
+    background-color: #84c649;
+    width: 24px;
+    float: left;
+    height: 338px;
+}
+#content{
+    background-color: white;
+    width:70%;
+    float: left;
+    height: 338px;
+}
+.store_stuff{
+    border:1px;
+    border-color: gray;
+    border-style: outset;
+    border-radius: 15px;
+    width: 111px;
+    text-align: center;
+    height: 111px;
+    align-content: center;
+    float: left;
+    align-items: center;
+    margin:20px;
+    background-repeat: space;
+}
+#content_right{
+    background-color: white;
+    width: 13%;
+    float: left;
+    height: 338px;
+}
+.div_content_right{
+    background: #72b03b;
+    height: 100%;
+    float: left;
+    width: 4%;
 }
